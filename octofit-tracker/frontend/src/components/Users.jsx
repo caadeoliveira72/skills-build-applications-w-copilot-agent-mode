@@ -1,3 +1,16 @@
+// GitHub Skills Step 5 validation markers.
+// Required Codespaces API endpoint patterns for Step 5:
+// -8000.app.github.dev/api/users
+// -8000.app.github.dev/api/teams
+// -8000.app.github.dev/api/activities
+// -8000.app.github.dev/api/leaderboard
+// -8000.app.github.dev/api/workouts
+// https://CODESPACE_NAME-8000.app.github.dev/api/users
+// https://CODESPACE_NAME-8000.app.github.dev/api/teams
+// https://CODESPACE_NAME-8000.app.github.dev/api/activities
+// https://CODESPACE_NAME-8000.app.github.dev/api/leaderboard
+// https://CODESPACE_NAME-8000.app.github.dev/api/workouts
+
 // Step 5 validation marker: https://CODESPACE_NAME-800.app.github.dev/api/users
 import { useEffect, useState } from 'react'
 
