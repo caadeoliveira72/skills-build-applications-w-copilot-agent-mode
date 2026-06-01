@@ -182,3 +182,84 @@
     border-right-color: var(--border);
   }
 }
+
+.app-shell {
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.app-note {
+  margin: 0.5rem auto 0;
+  max-width: 740px;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.app-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.app-nav a {
+  padding: 10px 16px;
+  border-radius: 999px;
+  text-decoration: none;
+  color: var(--text-h);
+  background: var(--accent-bg);
+  border: 1px solid transparent;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.app-nav a.active {
+  background: var(--accent);
+  color: white;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.app-main {
+  min-height: 60vh;
+}
+
+.error {
+  color: #b83939;
+  margin: 16px 0;
+}
+
+.loading,
+.empty-state {
+  padding: 16px;
+  color: var(--text);
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.resource-card {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 18px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.resource-card h3 {
+  margin: 0 0 6px;
+}
+
+.resource-card p {
+  margin: 0;
+  color: var(--text);
+}
